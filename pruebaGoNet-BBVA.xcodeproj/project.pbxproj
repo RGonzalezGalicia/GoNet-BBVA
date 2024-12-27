@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8939E8A42D1E866C003FB928 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8939E8A32D1E866C003FB928 /* Manager.swift */; };
+		8939E8A62D1E8B2D003FB928 /* UIImageView+Addons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8939E8A52D1E8B2D003FB928 /* UIImageView+Addons.swift */; };
 		89B425122D1E63C4002CEC2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B425112D1E63C4002CEC2F /* AppDelegate.swift */; };
 		89B425142D1E63C4002CEC2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B425132D1E63C4002CEC2F /* SceneDelegate.swift */; };
 		89B425162D1E63C4002CEC2F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B425152D1E63C4002CEC2F /* LoginController.swift */; };
@@ -35,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		82249F499C7075F1A373C957 /* Pods_pruebaGoNet_BBVA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pruebaGoNet_BBVA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8939E8A32D1E866C003FB928 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		8939E8A52D1E8B2D003FB928 /* UIImageView+Addons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Addons.swift"; sourceTree = "<group>"; };
 		89B4250E2D1E63C4002CEC2F /* pruebaGoNet-BBVA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pruebaGoNet-BBVA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B425112D1E63C4002CEC2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89B425132D1E63C4002CEC2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 		89B425102D1E63C4002CEC2F /* pruebaGoNet-BBVA */ = {
 			isa = PBXGroup;
 			children = (
+				8939E8A32D1E866C003FB928 /* Manager.swift */,
+				8939E8A52D1E8B2D003FB928 /* UIImageView+Addons.swift */,
 				89B425282D1E71BE002CEC2F /* Dashboard */,
 				89B425252D1E641D002CEC2F /* Login */,
 				89B425112D1E63C4002CEC2F /* AppDelegate.swift */,
@@ -252,7 +258,9 @@
 				89B425162D1E63C4002CEC2F /* LoginController.swift in Sources */,
 				89B425272D1E7158002CEC2F /* ModelLogin.swift in Sources */,
 				89B4252B2D1E71E8002CEC2F /* DashboardViewController.swift in Sources */,
+				8939E8A62D1E8B2D003FB928 /* UIImageView+Addons.swift in Sources */,
 				89B425122D1E63C4002CEC2F /* AppDelegate.swift in Sources */,
+				8939E8A42D1E866C003FB928 /* Manager.swift in Sources */,
 				89B4252E2D1E71FD002CEC2F /* ModelDashboard.swift in Sources */,
 				89B425142D1E63C4002CEC2F /* SceneDelegate.swift in Sources */,
 			);

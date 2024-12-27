@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct ModelDashboard: Codable {
+    let message: String
+    let status: String
+    
+}
