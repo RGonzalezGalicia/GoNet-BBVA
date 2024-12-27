@@ -9,21 +9,46 @@
 /* Begin PBXBuildFile section */
 		89B425122D1E63C4002CEC2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B425112D1E63C4002CEC2F /* AppDelegate.swift */; };
 		89B425142D1E63C4002CEC2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B425132D1E63C4002CEC2F /* SceneDelegate.swift */; };
-		89B425162D1E63C4002CEC2F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B425152D1E63C4002CEC2F /* LoginVC.swift */; };
+		89B425162D1E63C4002CEC2F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B425152D1E63C4002CEC2F /* LoginController.swift */; };
 		89B425192D1E63C4002CEC2F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 89B425182D1E63C4002CEC2F /* Base */; };
 		89B4251B2D1E63C5002CEC2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B4251A2D1E63C5002CEC2F /* Assets.xcassets */; };
 		89B4251E2D1E63C5002CEC2F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 89B4251D2D1E63C5002CEC2F /* Base */; };
+		89B425272D1E7158002CEC2F /* ModelLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B425262D1E7158002CEC2F /* ModelLogin.swift */; };
+		89B4252B2D1E71E8002CEC2F /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B425292D1E71E8002CEC2F /* DashboardViewController.swift */; };
+		89B4252C2D1E71E8002CEC2F /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89B4252A2D1E71E8002CEC2F /* DashboardViewController.xib */; };
+		89B4252E2D1E71FD002CEC2F /* ModelDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B4252D2D1E71FD002CEC2F /* ModelDashboard.swift */; };
+		C4CF56732950D614C2D96032 /* Pods_pruebaGoNet_BBVA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82249F499C7075F1A373C957 /* Pods_pruebaGoNet_BBVA.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		895091952D1E7C2800832059 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		82249F499C7075F1A373C957 /* Pods_pruebaGoNet_BBVA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pruebaGoNet_BBVA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B4250E2D1E63C4002CEC2F /* pruebaGoNet-BBVA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pruebaGoNet-BBVA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B425112D1E63C4002CEC2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89B425132D1E63C4002CEC2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		89B425152D1E63C4002CEC2F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		89B425152D1E63C4002CEC2F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		89B425182D1E63C4002CEC2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89B4251A2D1E63C5002CEC2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89B4251D2D1E63C5002CEC2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89B4251F2D1E63C5002CEC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89B425262D1E7158002CEC2F /* ModelLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelLogin.swift; sourceTree = "<group>"; };
+		89B425292D1E71E8002CEC2F /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		89B4252A2D1E71E8002CEC2F /* DashboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardViewController.xib; sourceTree = "<group>"; };
+		89B4252D2D1E71FD002CEC2F /* ModelDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDashboard.swift; sourceTree = "<group>"; };
+		BC09F78F3C8193826C4E7461 /* Pods-pruebaGoNet-BBVA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebaGoNet-BBVA.debug.xcconfig"; path = "Target Support Files/Pods-pruebaGoNet-BBVA/Pods-pruebaGoNet-BBVA.debug.xcconfig"; sourceTree = "<group>"; };
+		C688471DE6E7E70325E9509C /* Pods-pruebaGoNet-BBVA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebaGoNet-BBVA.release.xcconfig"; path = "Target Support Files/Pods-pruebaGoNet-BBVA/Pods-pruebaGoNet-BBVA.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +56,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4CF56732950D614C2D96032 /* Pods_pruebaGoNet_BBVA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		052CAF15E0BD80B2EE0D6756 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82249F499C7075F1A373C957 /* Pods_pruebaGoNet_BBVA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		89B425052D1E63C4002CEC2F = {
 			isa = PBXGroup;
 			children = (
 				89B425102D1E63C4002CEC2F /* pruebaGoNet-BBVA */,
 				89B4250F2D1E63C4002CEC2F /* Products */,
+				EF4EE9CACF299680D317CB0C /* Pods */,
+				052CAF15E0BD80B2EE0D6756 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +92,7 @@
 		89B425102D1E63C4002CEC2F /* pruebaGoNet-BBVA */ = {
 			isa = PBXGroup;
 			children = (
+				89B425282D1E71BE002CEC2F /* Dashboard */,
 				89B425252D1E641D002CEC2F /* Login */,
 				89B425112D1E63C4002CEC2F /* AppDelegate.swift */,
 				89B425132D1E63C4002CEC2F /* SceneDelegate.swift */,
@@ -70,9 +107,29 @@
 			isa = PBXGroup;
 			children = (
 				89B425172D1E63C4002CEC2F /* Main.storyboard */,
-				89B425152D1E63C4002CEC2F /* LoginVC.swift */,
+				89B425152D1E63C4002CEC2F /* LoginController.swift */,
+				89B425262D1E7158002CEC2F /* ModelLogin.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		89B425282D1E71BE002CEC2F /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				89B425292D1E71E8002CEC2F /* DashboardViewController.swift */,
+				89B4252A2D1E71E8002CEC2F /* DashboardViewController.xib */,
+				89B4252D2D1E71FD002CEC2F /* ModelDashboard.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		EF4EE9CACF299680D317CB0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC09F78F3C8193826C4E7461 /* Pods-pruebaGoNet-BBVA.debug.xcconfig */,
+				C688471DE6E7E70325E9509C /* Pods-pruebaGoNet-BBVA.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89B425222D1E63C5002CEC2F /* Build configuration list for PBXNativeTarget "pruebaGoNet-BBVA" */;
 			buildPhases = (
+				C115136A74F30DB7B98613D2 /* [CP] Check Pods Manifest.lock */,
 				89B4250A2D1E63C4002CEC2F /* Sources */,
 				89B4250B2D1E63C4002CEC2F /* Frameworks */,
 				89B4250C2D1E63C4002CEC2F /* Resources */,
+				895091952D1E7C2800832059 /* Embed Frameworks */,
+				377D36BDD68A788ABE6FA9DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,18 +196,64 @@
 				89B4251B2D1E63C5002CEC2F /* Assets.xcassets in Resources */,
 				89B4251E2D1E63C5002CEC2F /* Base in Resources */,
 				89B425192D1E63C4002CEC2F /* Base in Resources */,
+				89B4252C2D1E71E8002CEC2F /* DashboardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		377D36BDD68A788ABE6FA9DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pruebaGoNet-BBVA/Pods-pruebaGoNet-BBVA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pruebaGoNet-BBVA/Pods-pruebaGoNet-BBVA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pruebaGoNet-BBVA/Pods-pruebaGoNet-BBVA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C115136A74F30DB7B98613D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pruebaGoNet-BBVA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		89B4250A2D1E63C4002CEC2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B425162D1E63C4002CEC2F /* LoginVC.swift in Sources */,
+				89B425162D1E63C4002CEC2F /* LoginController.swift in Sources */,
+				89B425272D1E7158002CEC2F /* ModelLogin.swift in Sources */,
+				89B4252B2D1E71E8002CEC2F /* DashboardViewController.swift in Sources */,
 				89B425122D1E63C4002CEC2F /* AppDelegate.swift in Sources */,
+				89B4252E2D1E71FD002CEC2F /* ModelDashboard.swift in Sources */,
 				89B425142D1E63C4002CEC2F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,7 +317,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -274,7 +380,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -295,6 +401,7 @@
 		};
 		89B425232D1E63C5002CEC2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC09F78F3C8193826C4E7461 /* Pods-pruebaGoNet-BBVA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +430,7 @@
 		};
 		89B425242D1E63C5002CEC2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C688471DE6E7E70325E9509C /* Pods-pruebaGoNet-BBVA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

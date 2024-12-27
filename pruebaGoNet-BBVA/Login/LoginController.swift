@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoginVC: UIViewController {
+class LoginController: UIViewController {
 
     @IBOutlet weak var emailTF: UITextField!
     
@@ -26,7 +26,8 @@ class LoginVC: UIViewController {
     
     
     @IBAction func LoginBtnAction(_ sender: UIButton) {
-        print("boton login")
+        let newViewController = DashboardViewController()
+        present(newViewController, animated: true, completion: nil)
     }
     
     
