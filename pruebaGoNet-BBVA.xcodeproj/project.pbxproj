@@ -75,6 +75,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8939E8AB2D1ED745003FB928 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8939E8A32D1E866C003FB928 /* Manager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8939E8AC2D1ED757003FB928 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8939E8A52D1E8B2D003FB928 /* UIImageView+Addons.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		89B425052D1E63C4002CEC2F = {
 			isa = PBXGroup;
 			children = (
@@ -96,8 +112,8 @@
 		89B425102D1E63C4002CEC2F /* pruebaGoNet-BBVA */ = {
 			isa = PBXGroup;
 			children = (
-				8939E8A32D1E866C003FB928 /* Manager.swift */,
-				8939E8A52D1E8B2D003FB928 /* UIImageView+Addons.swift */,
+				8939E8AB2D1ED745003FB928 /* Core */,
+				8939E8AC2D1ED757003FB928 /* Common */,
 				89B425282D1E71BE002CEC2F /* Dashboard */,
 				89B425252D1E641D002CEC2F /* Login */,
 				89B425112D1E63C4002CEC2F /* AppDelegate.swift */,
@@ -423,6 +439,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,6 +469,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -9,7 +9,7 @@ import UIKit
 
 class DashboardViewController: UIViewController {
 
-    var objetoEnviar = DataManager()
+    var manager = DataManager()
     var modelDashboard : ModelDashboard?
     
     @IBOutlet weak var imageDog: UIImageView!
@@ -21,10 +21,9 @@ class DashboardViewController: UIViewController {
         super.viewDidLoad()
 
         getDogs()
-        //showDogs()
         
-        changeImage.layer.cornerRadius = 10
-        logOutBtn.layer.cornerRadius = 10
+        changeImage.layer.cornerRadius = 15
+        logOutBtn.layer.cornerRadius = 15
     }
 
 
@@ -34,17 +33,16 @@ class DashboardViewController: UIViewController {
     
     @IBAction func logOutAction(_ sender: UIButton) {
         
+        UserDefaults.standard.removeObject(forKey: "userEmail")
+        UserDefaults.standard.removeObject(forKey: "userPassword")
+        
+        dismiss(animated: true, completion: nil)
     }
-    
-
-    
-    
-    
-
+   
     func getDogs() {
         let url = "https://dog.ceo/api/breeds/image/random"
         
-        objetoEnviar.fetchData(responseModel: ModelDashboard.self, path: url, method: .get) { [weak self] result in
+        manager.fetchData(responseModel: ModelDashboard.self, path: url, method: .get) { [weak self] result in
             switch result {
             case .success(let model):
                 //print(model)

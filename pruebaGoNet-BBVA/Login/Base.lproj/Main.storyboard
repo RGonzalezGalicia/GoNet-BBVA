@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -44,7 +45,7 @@
                                             <constraint firstAttribute="height" constant="35" id="HiP-qD-veZ"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="contraseña" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EvP-TE-5kW">
                                         <rect key="frame" x="0.0" y="55" width="263" height="35"/>
@@ -54,18 +55,31 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9f1-re-TSz">
-                                <rect key="frame" x="100" y="584" width="193" height="48"/>
-                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <rect key="frame" x="100" y="584" width="193" height="47.333333333333371"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="ZBv-ae-pxM"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="ZBv-ae-pxM"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Login">
+                                <buttonConfiguration key="configuration" style="plain" title="Registro">
                                     <fontDescription key="titleFontDescription" name=".SFUI-Regular" family=".AppleSystemUIFont" pointSize="30"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="LoginBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rjl-kg-sIV"/>
+                                    <action selector="RegisterBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rjl-kg-sIV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdk-TI-rN8">
+                                <rect key="frame" x="100" y="666.33333333333337" width="193" height="50"/>
+                                <color key="backgroundColor" systemColor="tintColor"/>
+                                <color key="tintColor" systemColor="tintColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Login">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="LoginBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y96-gS-caE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -76,12 +90,14 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ffm-Go-Ggr" secondAttribute="trailing" constant="25" id="3Ha-Re-bnx"/>
                             <constraint firstAttribute="bottom" secondItem="Ur2-W9-TDz" secondAttribute="bottom" id="6nL-Cq-bec"/>
                             <constraint firstItem="ffm-Go-Ggr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="6uz-u1-pqj"/>
+                            <constraint firstItem="gdk-TI-rN8" firstAttribute="top" secondItem="9f1-re-TSz" secondAttribute="bottom" constant="35" id="7d3-ud-7vd"/>
                             <constraint firstItem="Ur2-W9-TDz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Fky-Il-ZpM"/>
                             <constraint firstItem="9f1-re-TSz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="K6B-C4-axc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9f1-re-TSz" secondAttribute="bottom" constant="186" id="KuF-eL-yUE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Trr-SN-1Gc" secondAttribute="trailing" constant="115" id="UJe-Vq-tRP"/>
+                            <constraint firstItem="gdk-TI-rN8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="V6P-a2-9HX"/>
                             <constraint firstItem="umo-dO-PsU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="ZWX-JB-olU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="umo-dO-PsU" secondAttribute="trailing" constant="65" id="g6Z-5g-Dog"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gdk-TI-rN8" secondAttribute="trailing" constant="100" id="hYb-wD-Esj"/>
                             <constraint firstItem="umo-dO-PsU" firstAttribute="top" secondItem="Trr-SN-1Gc" secondAttribute="bottom" constant="70" id="iJs-4A-PJt"/>
                             <constraint firstItem="Ur2-W9-TDz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rlN-eH-PHv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9f1-re-TSz" secondAttribute="trailing" constant="100" id="vVd-Fl-wul"/>
@@ -92,8 +108,9 @@
                     </view>
                     <connections>
                         <outlet property="emailTF" destination="rV6-lN-FAV" id="kls-pm-dkU"/>
-                        <outlet property="loginBtn" destination="9f1-re-TSz" id="fVq-Sd-hNr"/>
+                        <outlet property="loginBtn" destination="gdk-TI-rN8" id="FAL-9l-cr0"/>
                         <outlet property="passwordTF" destination="EvP-TE-5kW" id="Utx-Ex-POC"/>
+                        <outlet property="registerBtn" destination="9f1-re-TSz" id="fVq-Sd-hNr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -104,7 +121,7 @@
     <resources>
         <image name="fondo" width="3850" height="2723"/>
         <image name="person.3.fill" catalog="system" width="128" height="66"/>
-        <systemColor name="linkColor">
+        <systemColor name="tintColor">
             <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>

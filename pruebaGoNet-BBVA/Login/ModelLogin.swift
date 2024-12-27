@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct ModelLogin: Decodable {
+    let token: String?
+}

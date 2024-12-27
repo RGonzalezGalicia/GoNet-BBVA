@@ -8,5 +8,7 @@ target 'pruebaGoNet-BBVA' do
   # Pods for pruebaGoNet-BBVA
 pod 'Alamofire'
 pod 'Kingfisher'
+pod "ToastViewSwift"
+
 
 end
